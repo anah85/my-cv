@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+.Porfolio{
+    height: auto; 
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 5% 10%;
+    &__title{
+        font-family: $font-secondary;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+   &__wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    resize: both;
+    overflow: auto;
+    background-repeat: round;
+   } 
+}

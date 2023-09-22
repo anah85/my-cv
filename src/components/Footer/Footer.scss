@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+
+.footer{
+    height: 15vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+   &__box{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+   }
+}

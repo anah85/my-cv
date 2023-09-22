@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+@import '../../styles/fonts';
+
+
+.Curriculum{
+    height: auto; 
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 5% 10%;
+    &__selection {
+        min-width: 170px;
+        width: 25%;
+        margin: 1rem;
+        font-family: "Noto Sans JP",sans-serif;
+        background-color: #f1f1f1;
+        padding: 0.8rem 0.5rem;
+        border: none;
+        color: $color-secondary;
+        font-size: 1.25rem;
+    &:hover{
+            color: $color-primary;
+            text-decoration: underline;
+        }
+    } 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
